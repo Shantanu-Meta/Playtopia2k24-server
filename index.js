@@ -13,7 +13,7 @@ connectWithMongo();
 
 
 app.get('/', (req, res) => {
-  res.send('Hello Playtopia!')
+  res.send('Hello Playtopia! from AWS server.')
 })
 
 app.use('/api/auth', require('./routes/auth'));
