@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/pm2/bin/pm2-runtime server.js", 
-    "poststart":  "node ./node_modules/pm2/bin/pm2 logs"
+    "start": "./node_modules/pm2/bin/pm2-runtime index.js", 
+    "poststart": "node ./node_modules/pm2/bin/pm2 logs"
   },
   "keywords": [],
   "author": "",
